@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Welcome to Selva\'s Private Registry Deployment Homepage!');
+    res.send('Welcome to Selvaraju\'s Private Registry Deployment Homepage!');
 });
 
 app.get('/:name', (req, res) => {
